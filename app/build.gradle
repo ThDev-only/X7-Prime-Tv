@@ -63,7 +63,7 @@ dependencies {
     
     //Glide Image Loader
     implementation("com.github.bumptech.glide:glide:4.12.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
     
     //VLC
     //implementation ("com.steiner.videolan:libvlc-android:3.1.7")
