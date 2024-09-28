@@ -1,0 +1,22 @@
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+
+    <!-- Design do menu Introdução do filme quando é clicado no botão (Introdução) no listView
+    
+    Model: (Design Default)
+    Info: "É acionado quando item (Introdução) do ListView options é clicado"
+    Layout Responsavel: activity_movie
+    Activity Responsavel: [MovieActivity]-->
+    
+	<solid
+		android:color="#70000000"/>
+
+	<stroke
+		android:width="1dp"
+		android:color="#000000"/>
+
+	<corners
+		android:radius="6dp"/>
+
+</shape>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+    <group
+        android:id="@+id/grupo_options"
+        android:layout_gravity="center_vertical">
+        
+    <item
+        android:id="@+id/nav_item1"
+        android:title=""
+        android:icon="@drawable/search_24px" />
+    
+     <item
+        android:id="@+id/nav_item2"
+        android:title=""
+        android:icon="@drawable/trending_up_24px" />
+    
+    
+     <item
+        android:id="@+id/nav_item3"
+        android:title=""
+        android:icon="@drawable/home_24px" />
+    
+     <item
+        android:id="@+id/nav_item4"
+        android:title=""
+        android:icon="@drawable/playlist_play_24px" />
+    
+     <item
+        android:id="@+id/nav_item5"
+        android:title=""
+        android:icon="@drawable/person_24px" />
+    
+    </group>
+    <!-- Outros itens da gaveta de navegação TV aqui -->
+</menu>

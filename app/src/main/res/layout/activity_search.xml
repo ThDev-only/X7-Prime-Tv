@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="200dp"
+         android:orientation="vertical"
+         android:layout_marginTop="20dp"
+         android:layout_marginStart="20dp">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+            <ImageButton
+                 android:layout_height="30dp"
+                 android:layout_width="90dp"
+                 android:src="@drawable/space_bar_24px"
+                 android:background="@drawable/ic_listview_selector"
+                 android:id="@+id/activity_searchImageButtonSpace" />
+
+            <ImageButton
+                 android:layout_height="30dp"
+                 android:layout_width="90dp"
+                 android:src="@drawable/backspace_24px"
+                 android:background="@drawable/ic_listview_selector"
+                 android:layout_marginStart="10dp"
+                 android:id="@+id/activity_searchImageButtonDelete" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:scrollbars="vertical"
+             android:id="@+id/activity_searchRecyclerViewKeyboard" />
+
+        <ListView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginTop="15dp"
+             android:id="@+id/activity_searchListViewCategory">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_marginTop="15dp"
+         android:layout_marginStart="20dp">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:lines="1"
+             android:textColor="#FFFFFF"
+             android:text="Mais Pesquisados"
+             android:id="@+id/activity_searchTextViewMovie" />
+
+        <RelativeLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp">
+
+            <HorizontalScrollView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:scrollbars="vertical"
+                     android:id="@+id/activity_searchRecyclerViewResultMovies" />
+
+            </HorizontalScrollView>
+
+            <ProgressBar
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:visibility="gone"
+                 android:id="@+id/activity_searchProgressBar" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:height="48.0dip"
+	android:width="48.0dip"
+	android:viewportWidth="48.0"
+	android:viewportHeight="48.0"
+>
+	<path
+		android:fillColor="@android:color/white"
+		android:pathData="M6 24c0-9.94 8.06-18 18-18s18 8.06 18 18-8.06 18-18 18S6 33.94 6 24ZM24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4Zm-5.48 9.93C17.86 13.53 17 14 17 14.78v18.44c0 0.78 0.86 1.26 1.52 0.85l15.08-9.22c0.64-0.39 0.64-1.31 0-1.7l-15.08-9.22Z"
+		android:fillType="nonZero"
+	>
+	</path>
+</vector>
+

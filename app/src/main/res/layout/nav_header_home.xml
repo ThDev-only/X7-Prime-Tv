@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:gravity="center_vertical"
+     android:orientation="horizontal"
+     android:paddingBottom="8dp"
+     android:paddingLeft="16dp"
+     android:paddingTop="8dp">
+
+    <ImageView
+         android:layout_height="50dp"
+         android:layout_width="50dp"
+         android:src="@drawable/logo_app_blue"
+         android:id="@+id/imageViewProfile"
+         android:layout_gravity="start" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:textColor="@android:color/white"
+         android:layout_marginStart="7dp"
+         android:id="@+id/textViewUsername"
+         android:text="BD DEV" />
+
+</LinearLayout>

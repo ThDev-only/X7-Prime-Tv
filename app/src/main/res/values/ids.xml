@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- MainActivity LinearLayout2 -->
+	<item type="id" name="linearLayout2"/>
+	<item type="id" name="checkbox2"/>
+    <item type="id" name="textview3"/>
+    <item type="id" name="linearcategory"/>
+	<item type="id" name="listviewchannel"/>
+    <item name="item_click_support" type="id" />
+	<item type="id" name="imageViewLogo1"/>
+</resources>

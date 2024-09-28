@@ -1,0 +1,22 @@
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+
+    <!-- Design do listView opções selected Para o filme [MovieActivity] 
+    
+    Model: (Design On Selected)
+    Info: "Design das opções do ListView options quando o estado é: selected"
+    Layout Responsavel: activity_movie
+    Activity Responsavel: [MovieActivity]-->
+    
+	<solid
+		android:color="#00000000"/>
+
+	<stroke
+		android:width="1dp"
+		android:color="#FFFFFF"/>
+
+	<corners
+		android:radius="6dp"/>
+
+</shape>

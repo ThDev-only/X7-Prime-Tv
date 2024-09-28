@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+  </style>
+
+  <style name="AppTheme" parent="Base.AppTheme" />
+    
+    
+    
+   <style name="Theme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:windowBackground">@drawable/splash_bd</item>
+	</style>
+	
+	<style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,19 @@
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+
+    <!-- Design do botão (Assistir) 
+    
+    Model: (Design On Selected)
+    Info: "Geralmente acionado quando o estado do botão é: selected"
+    
+    Layout Responsavel: category_item
+    Classe Responsavel: [CategoryAdapter]-->
+    
+	<solid
+		android:color="@color/colorTheme"/>
+
+	<corners
+		android:radius="3dp"/>
+	
+</shape>

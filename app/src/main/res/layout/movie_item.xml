@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="280dp"
+     android:layout_width="230dp"
+     android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+         android:layout_height="280dp"
+         android:layout_width="230dp"
+         android:orientation="vertical"
+         android:id="@+id/movieCardView">
+
+        <RelativeLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:src="@drawable/iconapp"
+                 android:scaleType="fitXY"
+                 android:id="@+id/movieImage" />
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:src="@drawable/play"
+                 android:id="@+id/moviePlayer" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingRight="12dp"
+                 android:textSize="18sp"
+                 android:textColor="@android:color/white"
+                 android:background="@drawable/ic_design_item_movie_format_leg"
+                 android:paddingBottom="7dp"
+                 android:paddingLeft="12dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentBottom="true"
+                 android:id="@+id/movieFormat"
+                 android:text="L"
+                 android:paddingTop="7dp"
+                 android:textStyle="bold" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:visibility="gone"
+                 android:gravity="center"
+                 android:layout_centerHorizontal="true"
+                 android:textColor="#FFFFFFFF"
+                 android:layout_alignParentBottom="true"
+                 android:text="190 117 e o mais atual é o h250 w210"
+                 android:id="@+id/movieTitle" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

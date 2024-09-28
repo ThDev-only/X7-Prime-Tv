@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_marginBottom="10dp"
+     android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+         android:layout_height="500dp"
+         android:layout_width="match_parent"
+         android:elevation="10dp"
+         android:orientation="vertical"
+         android:radius="7dp"
+         android:id="@+id/category_itemRelativeLayoutDestaque">
+
+        <RelativeLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <Button
+                 android:layout_height="1dp"
+                 android:layout_width="1dp"
+                 android:focusable="true" />
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:visibility="visible"
+                 android:scaleType="centerCrop"
+                 android:orientation="vertical"
+                 android:focusable="false"
+                 android:id="@+id/category_itemImageViewBanner" />
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:gravity="center_vertical"
+                 android:background="@drawable/ic_gradient_movie_banner"
+                 android:orientation="vertical">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:padding="10dp"
+                     android:shadowRadius="1.0"
+                     android:textSize="30sp"
+                     android:textColor="#FFFFFF"
+                     android:shadowColor="#000000"
+                     android:shadowDx="1.0"
+                     android:shadowDy="1.0"
+                     android:layout_marginStart="60dp"
+                     android:id="@+id/categoryitemTextViewMovieTitle" />
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="bottom"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginStart="60dp">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="300dp"
+                         android:shadowRadius="1.0"
+                         android:textColor="#FFFFFF"
+                         android:shadowColor="#000000"
+                         android:shadowDx="1.0"
+                         android:shadowDy="1.0"
+                         android:maxLines="4"
+                         android:text="Text"
+                         android:id="@+id/categoryitemTextViewMovieSubTitle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:layout_marginStart="60dp">
+
+                    <Button
+                         android:layout_height="35dp"
+                         android:layout_width="wrap_content"
+                         android:background="@drawable/ic_design_movies_btn_selector"
+                         android:drawableLeft="@drawable/play_arrow_fill_24px"
+                         android:focusableInTouchMode="true"
+                         android:textColor="#FFFFFF"
+                         android:focusable="true"
+                         android:text="Assistir"
+                         android:id="@+id/categoryitemButtonAssistir" />
+
+                    <Button
+                         android:layout_height="35dp"
+                         android:layout_width="wrap_content"
+                         android:background="@drawable/ic_design_movies_btn_selector"
+                         android:drawableLeft="@drawable/playlist_add_24px"
+                         android:focusableInTouchMode="true"
+                         android:textColor="#FFFFFF"
+                         android:layout_marginStart="15dp"
+                         android:focusable="true"
+                         android:text="Minha Lista"
+                         android:id="@+id/categoryitemButtonAddLista" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/categoryitemRelativeLayoutCategoryDefault">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:padding="10dp"
+             android:textSize="20sp"
+             android:textColor="#FFFFFF"
+             android:layout_marginStart="60dp"
+             android:id="@+id/categoryTitle" />
+
+        <Button
+             android:layout_height="35dp"
+             android:layout_width="wrap_content"
+             android:visibility="gone"
+             android:background="@drawable/ic_design_movies_btn_selector"
+             android:focusableInTouchMode="true"
+             android:textColor="#FFFFFF"
+             android:layout_alignParentRight="true"
+             android:layout_marginTop="5dp"
+             android:focusable="true"
+             android:text="Ver mais"
+             android:id="@+id/categoryitemButtonViewMore" />
+
+        <androidx.recyclerview.widget.RecyclerView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_below="@id/categoryTitle"
+             android:focusableInTouchMode="true"
+             android:focusable="true"
+             android:id="@+id/movieRecyclerView" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:paddingEnd="20dp"
+     android:background="#00000000"
+     android:orientation="vertical"
+     android:paddingStart="20dp"
+     tools:targetApi="28"
+     android:layout_gravity="bottom"
+     android:layoutDirection="ltr">
+
+    <RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="24sp"
+             android:textColor="#ffffff"
+             android:id="@+id/title"
+             android:text="Vingadores: A era de Ultron"
+             android:textStyle="bold" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_alignParentRight="true">
+
+            <ImageButton
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/hd_24px"
+                 android:background="@drawable/design_ic_custom_exocontroller"
+                 android:id="@+id/quality" />
+
+            <ImageButton
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/i4k_24px"
+                 android:background="@drawable/design_ic_custom_exocontroller" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="horizontal"
+         android:paddingTop="4dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center_vertical"
+         android:orientation="horizontal"
+         android:layout_marginTop="4dp">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:paddingRight="4dp"
+             android:includeFontPadding="false"
+             android:textSize="14sp"
+             android:paddingLeft="4dp"
+             android:textColor="#ff828282"
+             android:id="@id/exo_position"
+             android:textStyle="bold" />
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+             android:layout_height="26dp"
+             android:layout_width="0dp"
+             app:scrubber_dragged_size="0dp"
+             app:scrubber_enabled_size="0dp"
+             app:played_color="#0000FF"
+             app:scrubber_disabled_size="0dp"
+             android:layout_weight="1"
+             android:id="@id/exo_progress" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:paddingRight="4dp"
+             android:includeFontPadding="false"
+             android:textSize="14sp"
+             android:paddingLeft="4dp"
+             android:textColor="#ff828282"
+             android:id="@id/exo_duration"
+             android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="3dp"
+         android:text="Tentanto proteger o planeta de ameaças como as vistas no primeiro Os Vingadores, Tony Stark busca construir um sistema de inteligência artifical que cuidaria da paz mundial. "
+         android:textColor="#70ffffff" 
+         android:lines="3"/>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+    <group
+        android:id="@+id/grupo_options"
+        android:layout_gravity="center_vertical">
+        
+  <!-- <item
+        android:id="@+id/nav_item0"
+        android:title=""/>-->
+        
+    <item
+        android:id="@+id/nav_item1"
+        android:title="Pesquisar"
+        android:icon="@drawable/search_24px"
+        android:checkable="true" 
+        android:focusable="true"
+        app:cnb_backgroundColor="#0000ff"
+        app:cnb_iconColor="@android:color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@android:color/white"
+        android:focusableInTouchMode="true"/>
+    
+     <item
+        android:id="@+id/nav_item2"
+        android:title="Em Alta"
+        android:icon="@drawable/trending_up_24px"
+        android:checkable="true" 
+        android:focusable="true"
+        app:cnb_backgroundColor="#0000ff"
+        app:cnb_iconColor="@android:color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@android:color/white"
+        android:focusableInTouchMode="true"/>
+    
+    
+     <item
+        android:id="@+id/nav_item3"
+        android:title="Inicio"
+        android:icon="@drawable/home_24px" 
+        android:focusable="true"
+        app:cnb_backgroundColor="#0000ff"
+        app:cnb_iconColor="@android:color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@android:color/white"    
+        android:focusableInTouchMode="true"/>
+    
+     <item
+        android:id="@+id/nav_item4"
+        android:title="Minha Lista"
+        android:icon="@drawable/playlist_play_24px"
+        android:focusable="true"
+        app:cnb_backgroundColor="#0000ff"
+        app:cnb_iconColor="@android:color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@android:color/white"    
+        android:focusableInTouchMode="true"/>
+    
+     <item
+        android:id="@+id/nav_item5"
+        android:title="Conta"
+        android:icon="@drawable/person_24px"
+        android:focusable="true"
+        app:cnb_backgroundColor="#0000ff"
+        app:cnb_iconColor="@android:color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@android:color/white"    
+        android:focusableInTouchMode="true"/>
+        
+    </group>
+    <!-- Outros itens da gaveta de navegação TV aqui -->
+</menu>

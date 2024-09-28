@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:drawable="@drawable/llwiis"/>
+		
+	<item
+		android:width="170dp"
+		android:height="170dp"
+		android:gravity="center">
+
+		<bitmap
+
+			android:gravity="fill_horizontal|fill_vertical"
+			android:src="@drawable/logo_app_blue"/>
+	</item>
+</layer-list>

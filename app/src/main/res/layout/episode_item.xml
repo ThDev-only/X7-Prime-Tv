@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_marginBottom="5dp"
+     android:background="#70000000"
+     android:padding="10dp"
+     android:orientation="horizontal">
+
+    <RelativeLayout
+         android:layout_height="110dp"
+         android:layout_width="180dp">
+
+        <androidx.cardview.widget.CardView
+             android:layout_height="110dp"
+             android:layout_width="180dp"
+             android:id="@+id/cardView">
+
+            <RelativeLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content">
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:src="@android:drawable/ic_delete"
+                     android:scaleType="fitXY"
+                     android:id="@+id/image" />
+
+                <ImageView
+                     android:layout_height="32dp"
+                     android:layout_width="32dp"
+                     android:layout_centerInParent="true"
+                     android:src="@drawable/play_circle_40px" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:background="#50000000"
+                     android:textColor="#FFFFFF"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentBottom="true"
+                     android:text="00:45:13"
+                     android:id="@+id/duration" />
+
+                <ProgressBar
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     style="?android:attr/progressBarStyleHorizontal"
+                     android:layout_alignParentBottom="true"
+                     android:id="@+id/progress" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginStart="5dp">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="19sp"
+             android:textColor="#FFFFFF"
+             android:text="1. Piloto"
+             android:textStyle="bold"
+             android:id="@+id/title" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="230dp"
+             android:textColor="#FFFFFF"
+             android:layout_marginTop="10dp"
+             android:text="Uma introducao qualquer para testar a qualidade a tela episode item"
+             android:id="@+id/sinopse" />
+
+    </LinearLayout>
+
+</LinearLayout>

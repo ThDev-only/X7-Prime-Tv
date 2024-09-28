@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="fill_parent"
+     android:layout_width="wrap_content"
+     android:gravity="center_vertical"
+     android:background="@color/colorBlack"
+     android:orientation="vertical"
+     android:focusable="false">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:focusable="false"
+         android:id="@+id/activity_movieLinearLayoutt">
+
+    </LinearLayout>
+
+    <ImageView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:visibility="visible"
+         android:scaleType="fitXY"
+         android:orientation="vertical"
+         android:focusable="false"
+         android:id="@+id/activitymovieImageViewBanner" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerInParent="true"
+         android:focusable="false"
+         android:id="@+id/activitymovieLinearLayoutLoading">
+
+        <ProgressBar
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:focusable="false"
+             android:id="@+id/activitymovieProgressBarLoading" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textColor="#FFFFFFFF"
+             android:layout_marginStart="5dp"
+             android:focusable="false"
+             android:text="Carregando..."
+             android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="300dp"
+         android:layout_centerInParent="true"
+         android:visibility="gone"
+         android:gravity="center_horizontal"
+         android:background="@drawable/ic_design_details_movie_linearlayout_intro"
+         android:elevation="5dp"
+         android:orientation="vertical"
+         android:id="@+id/activitymovieLinearIntroducao">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="20sp"
+             android:textColor="#FFFFFF"
+             android:text="Introdução" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:shadowRadius="1.0"
+             android:textColor="#FFFFFF"
+             android:shadowColor="#000000"
+             android:shadowDx="1.0"
+             android:layout_marginTop="25dp"
+             android:shadowDy="1.0"
+             android:text="more intro"
+             android:id="@+id/activitymovieTextViewMoreIntro" />
+
+        <Button
+             android:layout_height="30dp"
+             android:layout_width="wrap_content"
+             android:background="@drawable/ic_design_movies_selector"
+             android:textColor="#FFFFFF"
+             android:layout_marginTop="25dp"
+             android:id="@+id/activity_movieButtonCloseIntro"
+             android:text="Fechar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="wrap_content"
+         android:background="@drawable/ic_design_gradient_details_movie"
+         android:layout_toRightOf="@id/relativeLayoutMenuInfo">
+
+        <androidx.recyclerview.widget.RecyclerView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:id="@+id/activitymovieRecyclerViewEpisodes" />
+
+    </LinearLayout>
+
+    <ImageView
+         android:layout_height="100dp"
+         android:layout_width="100dp"
+         android:layout_marginBottom="20dp"
+         android:layout_marginEnd="20dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentBottom="true"
+         android:id="@+id/activity_movieImageViewLogoCompany" />
+
+    <RelativeLayout
+         android:layout_height="match_parent"
+         android:layout_width="310dp"
+         android:background="@drawable/ic_design_gradient_details_movie"
+         android:focusable="false"
+         android:id="@+id/relativeLayoutMenuInfo">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_centerInParent="true"
+             android:orientation="vertical"
+             android:focusable="false">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:visibility="gone"
+                 android:padding="10dp"
+                 android:textSize="22sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_marginStart="22dp"
+                 android:focusable="false"
+                 android:id="@+id/activitymovieTextViewTitle" />
+
+            <ImageView
+                 android:layout_height="110dp"
+                 android:layout_width="wrap_content"
+                 android:padding="10dp"
+                 android:layout_marginStart="22dp"
+                 android:focusable="false"
+                 android:id="@+id/activitymovieImageViewTitle" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="16sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginStart="22dp"
+                 android:maxLines="4"
+                 android:focusable="false"
+                 android:id="@+id/activitymovieTextViewSubTitle" />
+
+            <ListView
+                 android:layout_height="150dp"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginStart="22dp"
+                 android:focusable="true"
+                 android:id="@+id/activitymovieListViewOptions">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

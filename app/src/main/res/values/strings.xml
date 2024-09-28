@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">X7 Prime TV</string>
+    <string name="app_add_sucess_favorited"> Adicionado aos favoritos</string>
+	<string name="app_rm_sucess_favorited"> Removido dos favoritos</string>
+</resources>

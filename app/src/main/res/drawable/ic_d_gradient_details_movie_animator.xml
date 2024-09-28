@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_design_gradient_details_movie"
+        android:duration="4000"/>
+
+    <item android:drawable="@drawable/ic_design_gradient_details_movie_1"
+        android:duration="4000"/>
+
+    <item android:drawable="@drawable/ic_design_gradient_details_movie_2"
+        android:duration="4000"/>
+
+</animation-list>
