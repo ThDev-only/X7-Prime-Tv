@@ -57,7 +57,7 @@ dependencies {
     // For DASH
 	implementation ("com.google.android.exoplayer:exoplayer-dash:2.8.3")
 	// For SmoothStreaming
-	implementation ("com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.3")
+	implementation ("com.google.android.exoplayer:exoplayer-smoothstreaming:2.19.1")
 
 	implementation ("com.google.android.exoplayer:exoplayer-ui:2.8.3")
     
