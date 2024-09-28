@@ -55,7 +55,7 @@ dependencies {
         implementation ("androidx.cardview:cardview:1.0.0")
 
     // For DASH
-	implementation ("com.google.android.exoplayer:exoplayer-dash:2.8.3")
+	implementation ("com.google.android.exoplayer:exoplayer-dash:2.19.1")
 	// For SmoothStreaming
 	implementation ("com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.3")
 
